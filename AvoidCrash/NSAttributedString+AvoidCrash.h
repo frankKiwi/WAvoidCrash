@@ -1,16 +1,16 @@
 //
 //  NSAttributedString+AvoidCrash.h
-//  AvoidCrashDemo
+//  https://github.com/chenfanfang/AvoidCrash
 //
 //  Created by mac on 16/10/15.
-//  Copyright © 2016年 wKiwi. All rights reserved.
+//  Copyright © 2016年 chenfanfang. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
+#import "AvoidCrashProtocol.h"
 
-@interface NSAttributedString (AvoidCrash)
+@interface NSAttributedString (AvoidCrash)<AvoidCrashProtocol>
 
-+ (void)avoidCrashExchangeMethod;
 
 @end
 

@@ -1,16 +1,16 @@
 //
 //  NSMutableArray+AvoidCrash.h
-//  AvoidCrash
+//  https://github.com/chenfanfang/AvoidCrash
 //
 //  Created by mac on 16/9/21.
-//  Copyright © 2016年 wKiwi. All rights reserved.
+//  Copyright © 2016年 chenfanfang. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
+#import "AvoidCrashProtocol.h"
 
-@interface NSMutableArray (AvoidCrash)
+@interface NSMutableArray (AvoidCrash)<AvoidCrashProtocol>
 
-+ (void)avoidCrashExchangeMethod;
 
 @end
 

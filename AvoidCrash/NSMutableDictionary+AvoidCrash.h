@@ -1,16 +1,16 @@
 //
 //  NSMutableDictionary+AvoidCrash.h
-//  AvoidCrash
+//  https://github.com/chenfanfang/AvoidCrash
 //
 //  Created by mac on 16/9/22.
-//  Copyright © 2016年 wKiwi. All rights reserved.
+//  Copyright © 2016年 chenfanfang. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
+#import "AvoidCrashProtocol.h"
 
-@interface NSMutableDictionary (AvoidCrash)
+@interface NSMutableDictionary (AvoidCrash)<AvoidCrashProtocol>
 
-+ (void)avoidCrashExchangeMethod;
 
 @end
 

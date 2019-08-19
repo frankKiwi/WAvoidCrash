@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "AvoidCrash"
-  spec.version      = "0.0.3"
+  spec.version      = "0.0.5"
   spec.summary      = "A short description of AvoidCrash."
 
   # This description is used to generate tags and improve search results.
@@ -88,7 +88,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "AvoidCrash/WAVoidCrashTool/**/*.{h}"
+  spec.source_files  = "AvoidCrash/**/*.{h}"
 
   # spec.public_header_files = "Classes/**/*.h"
 
@@ -113,7 +113,6 @@ Pod::Spec.new do |spec|
   #  the lib prefix of their name.
   #
 
-   spec.vendored_libraries  = "AvoidCrash/WAVoidCrashTool/**/*.{a}"
   # spec.frameworks = "SomeFramework", "AnotherFramework"
 
   # spec.library   = "iconv"
