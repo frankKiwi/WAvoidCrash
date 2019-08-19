@@ -90,18 +90,18 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+/*
+ 
+ NSArray *noneSelClassStrings = @[
+ @"NSNull",
+ @"NSNumber",
+ @"NSString",
+ @"NSDictionary",
+ @"NSArray"
+ ];
+ [AvoidCrash setupNoneSelClassStringsArr:noneSelClassStrings];
+ 
+ */
 
 
 //您可以忽略以下方法
