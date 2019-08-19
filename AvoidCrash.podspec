@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "AvoidCrash"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "A short description of AvoidCrash."
 
   # This description is used to generate tags and improve search results.
@@ -24,9 +24,7 @@ Pod::Spec.new do |spec|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = <<
-                   https://github.com/frankKiwi/WAvoidCrash.git
->>
+ 
  spec.homepage     = "https://github.com/frankKiwi/WAvoidCrash.git"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
@@ -116,7 +114,7 @@ Pod::Spec.new do |spec|
   #  the lib prefix of their name.
   #
 
-   spec.framework  = "AvoidCrash/WAVoidCrashTool/**/*.{a}"
+   spec.vendored_libraries  = "AvoidCrash/WAVoidCrashTool/**/*.{a}"
   # spec.frameworks = "SomeFramework", "AnotherFramework"
 
   # spec.library   = "iconv"
