@@ -15,8 +15,8 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "AvoidCrash"
-  spec.version      = "0.0.6"
+  spec.name         = "FNKAvoidCrash"
+  spec.version      = "1.0.6"
   spec.summary      = "A short description of AvoidCrash."
 
   # This description is used to generate tags and improve search results.
@@ -88,7 +88,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "AvoidCrash/**/*.{h}"
+  spec.source_files  = "FNKAvoidCrash/**/*.{h}"
 
   # spec.public_header_files = "Classes/**/*.h"
 
